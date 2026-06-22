@@ -1,0 +1,172 @@
+<!-- FUTURE STARS -->
+<section class="section">
+
+    <div class="card">
+
+        <h2>🌌 Future Stars</h2>
+
+        <p>
+            Things I still want to do with you:
+        </p>
+
+        <br>
+
+        <ul style="line-height:2;">
+
+            <li>
+                ⭐ Take photo booth pictures together.
+            </li>
+
+            <li>
+                ⭐ Go hiking and complain halfway up the mountain.
+            </li>
+
+            <li>
+                ⭐ Have a cooking date and laugh over burnt food.
+            </li>
+
+            <li>
+                ⭐ Go on a movie date and secretly talk during the film.
+            </li>
+
+            <li>
+                ⭐ Finally have our first proper photo together.
+            </li>
+
+        </ul>
+
+    </div>
+
+</section>
+
+
+<!-- SECRET ENDING -->
+<section class="section">
+
+    <div class="card" style="text-align:center;">
+
+        <h2>🐻 One Last Thing...</h2>
+
+        <br>
+
+        <p>
+
+            Thank you for making me believe
+            that even short moments
+            can become beautiful memories.
+
+        </p>
+
+        <br>
+
+        <p>
+
+            If one day you forget
+            how loved you are,
+
+            come back here.
+
+        </p>
+
+        <br>
+
+        <p>
+
+            I'll remind you.
+
+            Every single time.
+
+        </p>
+
+        <br><br>
+
+        <p>
+
+            Love,
+
+            <br>
+
+            Ruth 🤎
+
+        </p>
+
+        <br>
+
+        <button onclick="window.scrollTo({
+            top:0,
+            behavior:'smooth'
+        })">
+
+            Read Again ♡
+
+        </button>
+
+    </div>
+
+</section>
+
+</div>
+
+
+<script>
+
+function showPin(){
+
+    document.getElementById("opening")
+        .style.display = "none";
+
+    document.getElementById("pinScreen")
+        .style.display = "flex";
+
+}
+
+
+function checkPin(){
+
+    const pin =
+        document.getElementById("pinInput").value;
+
+    if(pin === "2305"){
+
+        document.getElementById("pinScreen")
+            .style.display = "none";
+
+        document.getElementById("mainContent")
+            .style.display = "block";
+
+        window.scrollTo(0,0);
+
+    }
+
+    else{
+
+        alert("Hmm... try again, Dede ♡");
+
+    }
+
+}
+
+
+function toggleMessage(id){
+
+    const element =
+        document.getElementById(id);
+
+    if(element.style.display === "block"){
+
+        element.style.display = "none";
+
+    }
+
+    else{
+
+        element.style.display = "block";
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>
